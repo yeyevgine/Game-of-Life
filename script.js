@@ -1,43 +1,3 @@
-// var matrix = [];
-// var n = 20;
-// var m = 20;
-// var side = 10;
-
-
-// function setup() {
-//     for (var y = 0; y < n; y++) {
-//         matrix[y] = [];
-//         for (var x = 0; x < m; x++) {
-//             matrix[y][x] = random([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]);
-//         }
-//     }
-//     console.log(matrix);
-
-//     createCanvas(matrix[0].length * side, matrix.length * side);
-//     background('#acacac');
-// }
-// function draw() {
-//     for (var y = 0; y < matrix.length; y++) {
-//         for (var x = 0; x < matrix[y].length; x++) {
-//             if (matrix[y][x] == 2) {
-//                 fill("yellow");
-//                 rect(x * side, y * side, side, side);
-//             }
-//             else if (matrix[y][x] == 1) {
-//                 fill("green");
-//                 rect(x * side, y * side, side, side);
-//             }
-//             else {
-//                 fill('#acacac');
-//                 rect(x * side, y * side, side, side);
-//             }
-//         }
-//     }
-// }
-
-
-
-
 var matrix = [];
 
 var n = 80;
@@ -140,6 +100,44 @@ function draw() {
     }
 }
 
+
+
+// var matrix = [];
+// var n = 20;
+// var m = 20;
+// var side = 10;
+
+
+// function setup() {
+//     for (var y = 0; y < n; y++) {
+//         matrix[y] = [];
+//         for (var x = 0; x < m; x++) {
+//             matrix[y][x] = random([0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]);
+//         }
+//     }
+//     console.log(matrix);
+
+//     createCanvas(matrix[0].length * side, matrix.length * side);
+//     background('#acacac');
+// }
+// function draw() {
+//     for (var y = 0; y < matrix.length; y++) {
+//         for (var x = 0; x < matrix[y].length; x++) {
+//             if (matrix[y][x] == 2) {
+//                 fill("yellow");
+//                 rect(x * side, y * side, side, side);
+//             }
+//             else if (matrix[y][x] == 1) {
+//                 fill("green");
+//                 rect(x * side, y * side, side, side);
+//             }
+//             else {
+//                 fill('#acacac');
+//                 rect(x * side, y * side, side, side);
+//             }
+//         }
+//     }
+// }
 
 
 
