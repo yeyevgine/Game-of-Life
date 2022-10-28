@@ -481,7 +481,6 @@ class Lazer {
         }
         return found;
     }
-
     chooseCell(num, dir) {
         this.getNewCoordinates();
         var found = [];
@@ -547,7 +546,6 @@ class Lazer {
                 this.move();
             }
         }
-
     }
     mul() {
         var newCell = random(this.chooseCell(0, this.directions1));
@@ -563,6 +561,4 @@ class Lazer {
     die() {
         matrix[this.y][this.x] = 0;
     }
-
-
 }
